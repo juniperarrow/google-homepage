@@ -1,8 +1,40 @@
 body{
-    background-color: #00FF00
+    background-color: #FFFFFF
 }
 
-#logo{
-    display: relative; 
-    margin: auto
+.body-grid {
+    display: grid; 
+    width: 100%;
+    min-height: 500px; 
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%)
 }
+
+.d1{background: red; }
+.d2{background: orange; }
+.d3{background: yellow;}
+.d4{background: green; }
+.d5{background: blue;}
+.d6{background: purple; }
+.d7{background: pink;}
+.d8{background: lightblue;}
+.d9{background: gray; }
+.d10{background: lightgreen;}
+
+
+
+.logo-container {
+   max-height: 92px; 
+   position: relative; 
+   height: 100%; 
+   margin-top: auto; 
+
+.logo {
+    max-height: 100%;
+    max-width: 100%; 
+    object-fit: contain; 
+    object-position: center bottom; 
+    width: auto;
+
+}
+
